@@ -1,0 +1,75 @@
+﻿
+    body
+
+{
+    background-color: darkcyan;
+}
+
+.nav {
+    width: calc(100%-80px);
+    position: relative;
+    padding: 10px;
+}
+
+.logo {
+    width: 324px;
+    height: 150px;
+    background-image: url(../images/logo.png);
+    background-size:cover;
+    background-position:center;
+  
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 90px;
+}
+
+.menu-item {
+    color: white;
+    font-size: 26px;
+    font-family: Tahoma;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+.dog {
+    margin: 50px;
+    border-radius: 25px;
+    width: 350px;
+    transition: all 0.25s ease;
+    display:inline-block;
+}
+.dog:hover{
+    box-shadow: 0px 0px 50px grey;
+    transform:scale(1.05);
+}
+.dog-pic {
+    width: 350px;
+    height: 500px;
+    border-radius: 25px 25px 0 0;
+   
+   
+    background-size:cover;
+    background-position:center;
+}
+.dog-inf {
+    font-family: Tahoma;
+    background-color: darkseagreen;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    width: 350px;
+    
+}
+.dog-name{
+    color:white;
+    font-size:20px;
+    font-style:oblique;
+}
+.dog-text {
+    color: white;
+    font-size: 16px;
+    margin: 10px 15px 10px 5px;
+
+    text-align: center;
+}

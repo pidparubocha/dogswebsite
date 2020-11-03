@@ -1,0 +1,85 @@
+body {
+    background-color: darkcyan;
+}
+.nav {
+    width: calc(100%-80px);
+    position: relative;
+    padding: 10px;
+}
+
+.logo {
+    width: 324px;
+    height: 150px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.menu {
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+
+.menu-item {
+    color: white;
+    font-size: 26px;
+    font-family: Tahoma;
+    display: inline-block;
+    margin: 0px 20px 0px 0px;
+}
+.namepage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-style:oblique;
+    color: white;
+    text-align:center;
+    margin-bottom:10px;
+}
+.gallery {
+    background-color: #92C9B1;
+    position: absolute;
+    padding: 15px;
+    border-radius: 25px;
+    width: 730px;
+    height: 680px;
+}
+
+.photos {
+    margin: 10px 10px 10px 10px;
+    width: 220px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    transition: all 0.25s ease;
+}
+.photos:hover {
+    box-shadow: 0px 0px 50px grey;
+    transform: scale(1.05);
+}
+.text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #2E294E;
+    background-color: #92C9B1;
+    border-radius: 25px;
+    width: 420px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    right: 30px;
+    bottom: -30px;
+}
+.links {
+    background-color: #92C9B1;
+    border-radius: 15px;
+    width: 300px;
+    height: 80px;
+    position:absolute;
+    top:980px;
+    right:520px;
+    text-align:center;
+    display:table;
+}
